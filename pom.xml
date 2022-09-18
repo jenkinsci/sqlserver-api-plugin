@@ -9,7 +9,7 @@
     </parent>
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>sqlserver-api</artifactId>
-    <version>${revision}${changelist}</version>
+    <version>1.1.1</version>
     <packaging>hpi</packaging>
     <name>Microsoft SQL Server API Plugin</name>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
@@ -22,7 +22,7 @@
     <scm>
         <connection>scm:git:https://github.com/${gitHubRepo}</connection>
         <developerConnection>scm:git:https://github.com/${gitHubRepo}</developerConnection>
-        <tag>${scmTag}</tag>
+        <tag>sqlserver-api-1.1.1</tag>
         <url>https://github.com/${gitHubRepo}</url>
     </scm>
 
