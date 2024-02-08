@@ -1,12 +1,12 @@
 package io.jenkins.plugins.sqlserver;
 
-import com.microsoft.sqlserver.jdbc.SQLServerDriver;
-import com.microsoft.sqlserver.jdbc.SQLServerException;
-import org.junit.Test;
-
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
+
+import com.microsoft.sqlserver.jdbc.SQLServerDriver;
+import com.microsoft.sqlserver.jdbc.SQLServerException;
+import org.junit.Test;
 
 public class ClasspathTest {
     @Test
