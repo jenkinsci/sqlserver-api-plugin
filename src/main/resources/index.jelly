@@ -1,5 +1,5 @@
 <?jelly escape-by-default='true'?>
 <div>
-    This plugin is a shared library. It provides the Microsoft SQL Server Connector Java jar so that other plugins can
+    This plugin is a shared library. It provides the Microsoft SQL Server Connector Java (v${revision}) jar so that other plugins can
     consume Microsoft SQL Server without duplication and without classpath collisions.
 </div>
