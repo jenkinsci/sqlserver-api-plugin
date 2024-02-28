@@ -27,7 +27,7 @@
   </scm>
 
   <properties>
-    <revision>12.6.0</revision>
+    <revision>12.6.1.jre11</revision>
     <changelist>999999-SNAPSHOT</changelist>
     <jenkins.version>2.414.3</jenkins.version>
     <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
@@ -50,7 +50,7 @@
     <dependency>
       <groupId>com.microsoft.sqlserver</groupId>
       <artifactId>mssql-jdbc</artifactId>
-      <version>${revision}.jre11</version>
+      <version>${revision}</version>
     </dependency>
   </dependencies>
 
