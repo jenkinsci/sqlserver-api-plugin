@@ -29,9 +29,11 @@
   <properties>
     <revision>12.8.1.jre11</revision>
     <changelist>999999-SNAPSHOT</changelist>
-    <jenkins.version>2.440.3</jenkins.version>
+    <jenkins.version>2.479</jenkins.version>
     <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
     <spotless.check.skip>false</spotless.check.skip>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
   </properties>
 
   <dependencyManagement>
