@@ -6,16 +6,17 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 import com.microsoft.sqlserver.jdbc.SQLServerDriver;
 import com.microsoft.sqlserver.jdbc.SQLServerException;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class ClasspathTest {
+class ClasspathTest {
+
     @Test
-    public void testClasspath() throws ClassNotFoundException {
+    void testClasspath() throws ClassNotFoundException {
         assertThat(Class.forName(SQLServerDriver.class.getName()), notNullValue());
     }
 
     @Test
-    public void testDriver() throws SQLServerException {
+    void testDriver() throws SQLServerException {
         SQLServerDriver driver = new SQLServerDriver();
         assertThat(driver.acceptsURL("jdbc:sqlserver://localhost:1433;databaseName=postgres"), is(true));
     }
