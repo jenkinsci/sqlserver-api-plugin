@@ -27,7 +27,7 @@
   </scm>
 
   <properties>
-    <revision>12.10.0.jre11</revision>
+    <revision>12.10.1.jre11</revision>
     <changelist>999999-SNAPSHOT</changelist>
     <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
     <jenkins.baseline>2.479</jenkins.baseline>
